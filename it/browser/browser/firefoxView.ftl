@@ -20,7 +20,7 @@ firefoxview-close-button =
     .title = Chiudi
     .aria-label = Chiudi
 firefoxview-empty-state-icon =
-  .alt = Attenzione:
+    .alt = Attenzione:
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = adesso
 # This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
@@ -153,47 +153,38 @@ firefoxview-opentabs-focus-tab =
 firefoxview-show-more = Mostra altro
 firefoxview-show-less = Mostra meno
 firefoxview-show-all = Mostra tutto
-
 firefoxview-search-text-box-clear-button =
-  .title = Cancella
-
+    .title = Cancella
 # Placeholder for the input field to search in recent browsing ("search" is a verb).
 firefoxview-search-text-box-recentbrowsing =
-  .placeholder = Cerca
-
+    .placeholder = Cerca
 # Placeholder for the input field to search in history ("search" is a verb).
 firefoxview-search-text-box-history =
-  .placeholder = Cerca nella cronologia
-
-# Placeholder for the input field to search in recently closed tabs ("search" is a erb).
+    .placeholder = Cerca nella cronologia
+# Placeholder for the input field to search in recently closed tabs ("search" is a verb).
 firefoxview-search-text-box-recentlyclosed =
-  .placeholder = Cerca nelle schede chiuse di recente
-
-# Placeholder for the input field to search in open tabs ("search" is a verb).
+    .placeholder = Cerca nelle schede chiuse di recente
+# Placeholder for the input field to search in tabs from other devices ("search" is a verb).
 firefoxview-search-text-box-syncedtabs =
-  .placeholder = Cerca nelle schede sincronizzate
-
+    .placeholder = Cerca nelle schede sincronizzate
 # Placeholder for the input field to search in open tabs ("search" is a verb).
 firefoxview-search-text-box-opentabs =
-  .placeholder = Cerca nelle schede aperte
-
+    .placeholder = Cerca nelle schede aperte
 # "Search" is a noun (as in "Results of the search for")
 # Variables:
 #   $query (String) - The search query used for searching through browser history.
 firefoxview-search-results-header = Risultati della ricerca di “{ $query }”
-
 # Variables:
 #   $count (Number) - The number of visits matching the search query.
-firefoxview-search-results-count = { $count ->
-  [one] { $count } sito
- *[other] { $count } siti
-}
-
+firefoxview-search-results-count =
+    { $count ->
+        [one] { $count } sito
+       *[other] { $count } siti
+    }
 # Message displayed when a search is performed and no matching results were found.
 # Variables:
 #   $query (String) - The search query.
 firefoxview-search-results-empty = Nessun risultato per “{ $query }”
-
 firefoxview-sort-history-by-date-label = Ordina per data
 firefoxview-sort-history-by-site-label = Ordina per sito
 firefoxview-sort-open-tabs-by-recency-label = Ordina per attività recente
@@ -256,29 +247,24 @@ firefoxview-recentlyclosed-empty-header = Hai chiuso una scheda per sbaglio?
 firefoxview-recentlyclosed-empty-description = Qui puoi trovare tutte le schede che hai chiuso di recente, così puoi riaprire velocemente quelle che ti servono.
 firefoxview-recentlyclosed-empty-description-two = Per trovare schede che hai chiuso da più tempo, dai un’occhiata alla tua <a data-l10n-name="history-url">cronologia di navigazione</a>.
 
-##
-
 ## This message is displayed below the name of another connected device when it doesn't have any open tabs.
 
 firefoxview-syncedtabs-device-notabs = Nessuna scheda aperta in questo dispositivo
 firefoxview-syncedtabs-connect-another-device = Connetti un altro dispositivo
-
 firefoxview-pinned-tabs =
-  .title = Schede appuntate
-
+    .title = Schede appuntate
 firefoxview-tabs =
-  .title = Schede
+    .title = Schede
 
 ## These tooltips will be displayed when hovering over a pinned tab on the Open Tabs page
 ## Variables:
 ##  $tabTitle (string) - Title of pinned tab that will be opened when selected
 
 firefoxview-opentabs-pinned-tab =
-  .title = Passa a { $tabTitle }
-
+    .title = Passa a { $tabTitle }
 # This tooltip will be shown for a pinned tab whose URL is currently bookmarked.
 firefoxview-opentabs-bookmarked-pinned-tab =
-  .title = Passa a { $tabTitle } (nei segnalibri)
+    .title = Passa a { $tabTitle } (nei segnalibri)
 
 ## These tooltips will be displayed when hovering over an unpinned Open Tab
 ## Variables:
@@ -286,5 +272,4 @@ firefoxview-opentabs-bookmarked-pinned-tab =
 
 # This tooltip will be shown for an unpinned tab whose URL is currently bookmarked.
 firefoxview-opentabs-bookmarked-tab =
-  .title = { $url } (nei segnalibri)
-
+    .title = { $url } (nei segnalibri)

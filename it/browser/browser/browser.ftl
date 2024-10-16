@@ -548,9 +548,9 @@ urlbar-go-button =
 urlbar-page-action-button =
     .tooltiptext = Azioni per la pagina
 urlbar-revert-button =
-  .tooltiptext = Mostra l’indirizzo nella barra degli indirizzi
+    .tooltiptext = Mostra l’indirizzo nella barra degli indirizzi
 urlbar-show-page-actions-button =
-  .tooltiptext = Mostra tutte le azioni per la pagina
+    .tooltiptext = Mostra tutte le azioni per la pagina
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -611,17 +611,15 @@ urlbar-result-action-calculator-result = = { $result }
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site
 urlbar-result-search-with = Cerca con { $engine }
-
 # Label for the urlbar result row, prompting the user to use a local keyword to enter search mode.
 #  $keywords (String): the restrict keyword to enter search mode.
 #  $localSearchMode (String): the local search mode (history, tabs, bookmarks,
 #  or actions) to search with.
 urlbar-result-search-with-local-search-mode = { $keywords } - Cerca { $localSearchMode }
-
 # Label for the urlbar result row, prompting the user to use engine keywords to enter search mode.
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
-urlbar-result-search-with-engine-keywords = {$keywords} - Cerca con { $engine }
+urlbar-result-search-with-engine-keywords = { $keywords } - Cerca con { $engine }
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -652,13 +650,11 @@ urlbar-group-quickactions =
 #  $engine (String): the name of the search engine used to search.
 urlbar-group-recent-searches =
     .label = Ricerche recenti
-
 # The header shown above trending results.
 # Variables:
 #  $engine (String): the name of the search engine providing the trending suggestions
 urlbar-group-trending =
-  .label = Di tendenza su { $engine }
-
+    .label = Di tendenza su { $engine }
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show =
     .label = Non mostrare ricerche di tendenza
@@ -666,7 +662,6 @@ urlbar-result-menu-trending-dont-show =
 urlbar-result-menu-trending-why =
     .label = Perché viene visualizzato questo elemento?
     .accesskey = P
-
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
 urlbar-trending-dismissal-acknowledgment = Grazie per il tuo feedback. Le ricerche di tendenza non verranno più visualizzate.
@@ -947,7 +942,6 @@ data-reporting-notification-button =
     .accesskey = S
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = Navigazione anonima
-
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
@@ -1021,9 +1015,7 @@ firefox-relay-offer-legal-notice = Facendo clic su “Utilizza alias di posta el
 popup-notification-addon-install-unsigned =
     .value = (non verificato)
 popup-notification-xpinstall-prompt-learn-more = Scopri come installare componenti aggiuntivi in completa sicurezza
-
 popup-notification-xpinstall-prompt-block-url = Mostra dettagli
-
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = Esegui in finestre anonime
@@ -1064,7 +1056,6 @@ file-picker-failed-open = Impossibile aprire la finestra di selezione file di Wi
 #   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
 file-picker-failed-save-somewhere = Impossibile aprire la finestra di selezione file di Windows. Il file verrà salvato come { $path }.
 file-picker-failed-save-nowhere = Impossibile aprire la finestra di selezione file di Windows. Non è stata trovata una cartella predefinita e il file non verrà salvato.
-
 file-picker-crashed-open = La finestra di selezione file di Windows si è chiusa in modo anomalo. Non è stato selezionato alcun file o cartella.
 #   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
 file-picker-crashed-save-somewhere = La finestra di selezione file di Windows si è chiusa in modo anomalo. Il file verrà salvato come { $path }.
