@@ -18,6 +18,11 @@ cert-error-trust-signature-algorithm-disabled = Il certificato non è attendibil
 cert-error-trust-expired-issuer = Il certificato non è attendibile in quanto il certificato dell’autorità emittente è scaduto.
 cert-error-trust-self-signed = Il certificato non è attendibile in quanto autofirmato.
 cert-error-trust-symantec = I certificati rilasciati da GeoTrust, RapidSSL, Symantec, Thawte e VeriSign non sono più considerati attendibili in quanto, in passato, queste autorità di certificazione non si sono attenute alle pratiche di sicurezza previste.
+
+# Variables:
+#   $hostname (string) - Hostname of the website with cert error.
+cert-error-trust-certificate-transparency = { -brand-short-name } non ritiene { $hostname } affidabile in quanto non è riuscito a dimostrare di soddisfare i requisiti di trasparenza per certificati pubblici.
+
 cert-error-untrusted-default = Il certificato non proviene da una fonte attendibile.
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
