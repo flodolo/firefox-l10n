@@ -60,3 +60,26 @@ genai-input-ask-generic =
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = Spyrja { $provider }…
+
+## Chatbot header
+
+genai-header-options-button =
+    .title = Opna valmynd
+genai-header-close-button =
+    .title = Loka
+# $provider (string) - name of the provider
+genai-options-reload-provider =
+    .label = Endurhlaða { $provider }
+genai-options-show-shortcut =
+    .label = Sýna flýtileið þegar texti er valinn
+genai-options-hide-shortcut =
+    .label = Fela flýtileið þegar texti er valinn
+
+## Chatbot onboarding
+
+genai-onboarding-primary = Halda áfram
+genai-onboarding-secondary = Loka
+
+## Chatbot onboarding choices
+## These describe features/capabilities of chatbot providers. These are not buttons/actions.
+

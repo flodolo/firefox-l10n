@@ -4,6 +4,8 @@
 
 menu-view-genai-chat =
     .label = Chatbot de IA
+menu-view-review-checker =
+    .label = Verificador de avaliações
 
 ## Labels for sidebar history panel
 
@@ -50,6 +52,14 @@ sidebar-horizontal-tabs =
     .label = Separadores horizontais
 sidebar-customize-tabs-header =
     .label = Definições dos separadores
+sidebar-customize-button-header =
+    .label = Botão da barra lateral
+sidebar-customize-position-header =
+    .label = Posição da barra lateral
+sidebar-visibility-setting-always-show =
+    .label = Expandir e colapsar a barra lateral
+sidebar-visibility-setting-hide-sidebar =
+    .label = Mostrar e ocultar a barra lateral
 sidebar-customize-settings-header =
     .label = Definições da barra lateral
 sidebar-visibility-always-show =
@@ -95,6 +105,8 @@ sidebar-menu-bookmarks-label =
     .label = Marcadores
 sidebar-menu-customize-label =
     .label = Personalizar barra lateral
+sidebar-menu-review-checker-label =
+    .label = Verificador de avaliações
 
 ## Headings for sidebar menu panels.
 
@@ -104,6 +116,14 @@ sidebar-menu-history-header =
     .heading = Histórico
 sidebar-menu-syncedtabs-header =
     .heading = Separadores de outros dispositivos
+sidebar-panel-header-close-button =
+    .tooltiptext = Fechar
+
+## Titles for sidebar menu panels.
+
+sidebar-customize-title = Personalizar barra lateral
+sidebar-history-title = Histórico
+sidebar-syncedtabs-title = Separadores de outros dispositivos
 
 ## Context for closing synced tabs when hovering over the items
 
@@ -113,3 +133,18 @@ sidebar-menu-syncedtabs-header =
 #   $deviceName (String) - the name of the device the user is closing a tab for
 synced-tabs-context-close-tab-title =
     .title = Fechar separador em { $deviceName }
+
+## Tooltips for the sidebar toolbar widget.
+
+sidebar-widget-expand-sidebar =
+    .tooltiptext = Expandir barra lateral
+    .label = Barras laterais
+sidebar-widget-collapse-sidebar =
+    .tooltiptext = Colapsar barra lateral
+    .label = Barras laterais
+sidebar-widget-show-sidebar =
+    .tooltiptext = Mostrar barra lateral
+    .label = Barras laterais
+sidebar-widget-hide-sidebar =
+    .tooltiptext = Ocultar barra lateral
+    .label = Barras laterais
