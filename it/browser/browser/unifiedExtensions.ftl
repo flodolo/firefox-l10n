@@ -45,7 +45,5 @@ unified-extensions-mb-quarantined-domain-message = Solo alcune estensioni monito
 unified-extensions-mb-quarantined-domain-message-3 =
     .heading = Alcune estensioni non sono consentite
     .message = Per proteggere i tuoi dati, alcune estensioni non possono leggere o modificare dati in questo sito. Utilizza le impostazioni dell’estensione per consentirne il funzionamento in siti con restrizioni identificati da { -vendor-short-name }.
-
 unified-extensions-mb-quarantined-domain-learn-more = Ulteriori informazioni
     .aria-label = Ulteriori informazioni sul motivo per cui alcune estensioni non sono consentite
-

@@ -129,8 +129,8 @@ sidebar-syncedtabs-title = Schede da altri dispositivi
 
 # Context for hovering over the close tab button that will
 # send a push to the device to close said tab
-# Variables
-# $deviceName - the name of the device the user is closing a tab for
+# Variables:
+#   $deviceName (String) - the name of the device the user is closing a tab for
 synced-tabs-context-close-tab-title =
     .title = Chiudi scheda su { $deviceName }
 
@@ -148,4 +148,3 @@ sidebar-widget-show-sidebar =
 sidebar-widget-hide-sidebar =
     .tooltiptext = Nascondi la barra laterale
     .label = Barre laterali
-
