@@ -56,6 +56,10 @@ sidebar-customize-button-header =
     .label = Hnappur á hliðarstiku
 sidebar-customize-position-header =
     .label = Staða hliðarstiku
+sidebar-visibility-setting-always-show =
+    .label = Fella út og draga saman hliðarstikuna
+sidebar-visibility-setting-hide-sidebar =
+    .label = Birta og fela hliðarstiku
 sidebar-customize-settings-header =
     .label = Stillingar hliðarstiku
 sidebar-visibility-always-show =
@@ -132,3 +136,15 @@ synced-tabs-context-close-tab-title =
 
 ## Tooltips for the sidebar toolbar widget.
 
+sidebar-widget-expand-sidebar =
+    .tooltiptext = Fella út hliðarstikuna
+    .label = Hliðarstikur
+sidebar-widget-collapse-sidebar =
+    .tooltiptext = Fella saman hliðarstikuna
+    .label = Hliðarstikur
+sidebar-widget-show-sidebar =
+    .tooltiptext = Sýna hliðarstiku
+    .label = Hliðarstikur
+sidebar-widget-hide-sidebar =
+    .tooltiptext = Fela hliðarstiku
+    .label = Hliðarstikur
