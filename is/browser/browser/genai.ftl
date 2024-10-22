@@ -91,6 +91,8 @@ genai-options-about-chatbot =
 ## Chatbot onboarding
 
 genai-onboarding-header = Gerðu samantektir, fáðu hugmyndir og fleira um leið og þú vafrar
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-description = Veldu gervigreindar-spjallkerfi til að nota í { -brand-short-name } hliðarstikunni. Upplýsingar um hvert spjallkerfi munu birtast þegar þú velur það. Skiptu um kerfi hvenær sem er. <a data-l10n-name="learn-more">Frekari upplýsingar</a>
 genai-onboarding-primary = Halda áfram
 genai-onboarding-secondary = Loka
 genai-onboarding-claude-tooltip =
@@ -117,4 +119,15 @@ genai-onboarding-select-primary = Byrjaðu að spjalla
 
 genai-onboarding-claude-generate = Framleiddu texta og kóða
 genai-onboarding-claude-analyze = Greindu skjöl og myndir
+genai-onboarding-claude-price = Ókeypis og greiddir valkostir; reiknings er krafist
+genai-onboarding-chatgpt-generate = Framleiddu texta, myndir og kóða
+genai-onboarding-chatgpt-analyze = Greindu skjöl og myndir
+genai-onboarding-chatgpt-price = Ókeypis og greiddir valkostir; reiknings er krafist fyrir sum lönd og sumar gerðir verka
+genai-onboarding-gemini-generate = Framleiddu texta, myndir og kóða
+genai-onboarding-gemini-analyze = Greindu myndir (ókeypis) og skjöl (kostar)
+genai-onboarding-gemini-price = Ókeypis og greiddir valkostir; reiknings er krafist
+genai-onboarding-huggingchat-generate = Framleiddu texta og kóða
+genai-onboarding-huggingchat-switch = Skiptu á milli fjölbreyttra opinna líkana
+genai-onboarding-huggingchat-price = Ókeypis; reiknings er krafist fyrir sumar gerðir verka
+genai-onboarding-lechat-generate = Framleiddu texta og kóða
 genai-onboarding-lechat-price = Ókeypis; reiknings krafist

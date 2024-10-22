@@ -624,6 +624,26 @@ urlbar-result-search-with-local-search-mode = { $keywords } - Пошук у { $l
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = { $keywords } - Пошук за допомогою { $engine }
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button =
+    .label = { $engine }, вибрати пошукову систему
+    .tooltiptext = { $engine }, вибрати пошукову систему
+urlbar-searchmode-dropmarker =
+    .tooltiptext = Вибрати пошукову систему
+urlbar-searchmode-bookmarks =
+    .label = Закладки
+urlbar-searchmode-tabs =
+    .label = Вкладки
+urlbar-searchmode-history =
+    .label = Історія
+urlbar-searchmode-actions =
+    .label = Дії
+urlbar-searchmode-exit-button =
+    .tooltiptext = Закрити
+urlbar-searchmode-popup-description = Цього разу шукати з:
+urlbar-searchmode-popup-search-settings = Налаштування пошуку
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -1019,6 +1039,7 @@ firefox-relay-offer-legal-notice = Натискаючи “Використов�
 popup-notification-addon-install-unsigned =
     .value = (Не перевірено)
 popup-notification-xpinstall-prompt-learn-more = Дізнайтеся більше про безпечне встановлення додатків
+popup-notification-xpinstall-prompt-block-url = Показати подробиці
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = Виконувати в приватних вікнах

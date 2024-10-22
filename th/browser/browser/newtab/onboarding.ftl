@@ -189,6 +189,8 @@ mr2022-onboarding-pin-primary-button-label =
         [macos] เก็บ { -brand-short-name } ลงใน Dock
        *[other] ปักหมุด { -brand-short-name } เข้ากับแถบงาน
     }
+# Primary button string used on welcome page for when Firefox is not pinned on MSIX
+mr2022-onboarding-pin-primary-button-label-msix = ปักหมุด { -brand-short-name } เข้ากับแถบงานและเมนูเริ่ม
 # Subtitle will be used when user already has Firefox pinned, but
 # has not set it as their default browser.
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
@@ -339,6 +341,7 @@ onboarding-device-migration-primary-button-label = ลงชื่อเข้�
 ## Add-ons Picker screen
 
 amo-picker-title = ปรับแต่ง { -brand-short-name } ของคุณ
+amo-picker-subtitle = ส่วนขยายนั้นเหมือนกับแอปสำหรับเบราว์เซอร์ของคุณ และช่วยให้คุณปกป้องรหัสผ่าน ดาวน์โหลดวิดีโอ ค้นหาโปรโมชั่น ปิดกั้นโฆษณาที่น่ารำคาญ เปลี่ยนรูปลักษณ์ของเบราว์เซอร์ของคุณ และทำสิ่งต่างๆ ได้อีกมากมาย
 amo-picker-install-button-label = เพิ่มไปยัง { -brand-short-name }
 amo-picker-install-complete-label = ติดตั้งแล้ว
 amo-picker-collection-link = สำรวจส่วนเสริมเพิ่มเติม
@@ -376,5 +379,40 @@ onboarding-new-user-survey-familiarity-based-option-4 = ฉันเคยใช
 
 ## UI strings for the sidebar and vertical tabs
 
+# Setup screen for vertical tabs
+onboarding-new-tabs-title = บอกเราว่าคุณต้องการให้แท็บของคุณอยู่ด้านไหน
+# Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-new-tabs-subtitle = คุณสามารถเปลี่ยนได้เมื่อคุณต้องการในการตั้งค่าแถบข้าง
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-new-vertical-tabs-label = อยู่ด้านข้าง
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-new-horizontal-tabs-label = อยู่ด้านบน
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title = แท็บแนวตั้งอยู่ตรงนี้
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title2 = ขอแนะนำแท็บแนวตั้ง
+# Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-existing-tabs-subtitle = ลองนำแท็บของคุณมาไว้ด้านข้าง คุณสามารถเปลี่ยนได้เมื่อคุณต้องการในการตั้งค่าแถบข้าง
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-existing-vertical-tabs-label = ลองใช้แท็บแนวตั้ง
 onboarding-flair-text = ใหม่!
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-existing-horizontal-tabs-label = ใช้แท็บแนวนอนเหมือนเดิม
+# Tooltip displayed on hover for vertical tabs image
+onboarding-vertical-tabs-tooltip =
+    .title = หน้าต่างเบราว์เซอร์ซึ่งแสดงแท็บอยู่บริเวณด้านข้างของหน้าจอ โดยเป็นส่วนหนึ่งของแถบข้างใน { -brand-shorter-name }
+# Description for vertical tabs image
+onboarding-vertical-tabs-description =
+    .aria-description = หน้าต่างเบราว์เซอร์ซึ่งแสดงแท็บอยู่บริเวณด้านข้างของหน้าจอ โดยเป็นส่วนหนึ่งของแถบข้างใน { -brand-shorter-name }
+# Tooltip displayed on hover for horizontal tabs image
+onboarding-horizontal-tabs-tooltip =
+    .title = หน้าต่างเบราว์เซอร์ซึ่งแสดงแท็บอยู่บริเวณด้านบน
+# Description for horizontal tabs image
+onboarding-horizontal-tabs-description =
+    .aria-description = หน้าต่างเบราว์เซอร์ซึ่งแสดงแท็บอยู่บริเวณด้านบน
+# Additional setup card for setting up aichatbot in the sidebar
+onboarding-genai-sidebar-title = ลองใช้บอตสนทนา AI ในแถบข้าง
+# Setup card for setting up AI chatbot in the sidebar; "Providers" refers to AI chatbot providers (e.g. OpenAI, etc). "Switch anytime" refers to allowing the user to switch to a different chatbot.
+onboarding-genai-sidebar-subtitle = สรุปเนื้อหาบนเว็บ ระดมความคิด ร่างข้อความ ทั้งหมดนี้ทำได้ในขณะที่คุณท่องเว็บ คุณสามารถเลือกบอตสนทนาจากผู้ให้บริการต่างๆ หลายราย และสามารถสลับเปลี่ยนได้ตลอดเวลา <a data-l10n-name="learn-more">เรียนรู้เพิ่มเติม</a>
+onboarding-genai-sidebar-primary-button = เลือกบอตสนทนา
 onboarding-genai-sidebar-secondary-button = เริ่มต้นการเรียกดู

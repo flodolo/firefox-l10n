@@ -16,6 +16,7 @@ genai-settings-chat-copilot-links = Copilot’u seçtiğinizde <a data-l10n-name
 genai-settings-chat-gemini-links = Google Gemini’ı seçtiğinizde <a data-l10n-name="link1">Google Hizmet Koşulları</a>, <a data-l10n-name="link2">Üretken YZ Yasak Kullanım Politikası</a> ve <a data-l10n-name="link3">Gemini Uygulamaları Gizlilik Bildirimi</a>’ni kabul etmiş sayılırsınız.
 genai-settings-chat-huggingchat-links = HuggingChat’i seçtiğinizde <a data-l10n-name="link1">HuggingChat Gizlilik Bildirimi</a> ve <a data-l10n-name="link2">Hugging Face Gizlilik İlkeleri</a>’ni kabul etmiş sayılırsınız.
 genai-settings-chat-lechat-links = Le Chat Mistral’ı seçtiğinizde Mistral AI <a data-l10n-name="link1">Hizmet Koşulları</a> ve <a data-l10n-name="link2">Gizlilik Politikası</a>’nı kabul etmiş sayılırsınız.
+genai-settings-chat-localhost-links = { -vendor-short-name } inovasyon grubundan <a data-l10n-name="link1">llamafile</a> gibi özel yerel sohbet botunuzu kullanabilirsiniz.
 genai-settings-chat-shortcuts =
     .description = Bir metni seçtiğinizde istem kısayollarını görüntüler. { -brand-short-name }, seçtiğiniz metni, sayfa başlığını ve isteminizi sohbet botuna gönderir.
     .label = Metin seçtiğimde istemleri göster
@@ -89,6 +90,9 @@ genai-options-about-chatbot =
 
 ## Chatbot onboarding
 
+genai-onboarding-header = Gezinirken içerikleri özetleyin, yeni fikirler üretin ve daha fazlasını yapın
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-description = { -brand-short-name } kenar çubuğunda kullanmak istediğiniz yapay zekâ sohbet botunu seçin. Seçtiğiniz sohbet botuyla ilgili ayrıntıları da görebilirsiniz. İstediğiniz zaman sohbet botunuzu değiştirebilirsiniz. <a data-l10n-name="learn-more">Daha fazla bilgi alın</a>
 genai-onboarding-primary = İleri
 genai-onboarding-secondary = Kapat
 genai-onboarding-claude-tooltip =

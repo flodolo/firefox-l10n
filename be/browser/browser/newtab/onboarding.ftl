@@ -375,3 +375,43 @@ onboarding-new-user-survey-familiarity-based-option-1 = Я новенькі
 onboarding-new-user-survey-familiarity-based-option-2 = Карыстаўся пэўны час
 onboarding-new-user-survey-familiarity-based-option-3 = Мне гэта добра знаёма
 onboarding-new-user-survey-familiarity-based-option-4 = Я выкарыстаў яго ў мінулым, але гэта было даўно
+
+## UI strings for the sidebar and vertical tabs
+
+# Setup screen for vertical tabs
+onboarding-new-tabs-title = Скажыце нам, дзе вы хочаце размясціць свае карткі
+# Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-new-tabs-subtitle = Пераключайце гэта, калі захочаце, у наладах бакавой панэлі.
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-new-vertical-tabs-label = Карткі збоку
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-new-horizontal-tabs-label = Карткі ўверсе
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title = Вертыкальныя карткі ўжо тут
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title2 = Прадстаўляем вертыкальныя карткі
+# Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-existing-tabs-subtitle = Паспрабуйце карткі збоку. Уключыце іх, калі заўгодна, у наладах бакавой панэлі.
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-existing-vertical-tabs-label = Паспрабуйце вертыкальныя карткі
+onboarding-flair-text = Навіна!
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-existing-horizontal-tabs-label = Трымаць карткі гарызантальна
+# Tooltip displayed on hover for vertical tabs image
+onboarding-vertical-tabs-tooltip =
+    .title = Акно браўзера, які паказвае карткі ўздоўж экрана як частку бакавой панэлі { -brand-shorter-name }.
+# Description for vertical tabs image
+onboarding-vertical-tabs-description =
+    .aria-description = Акно браўзера, які паказвае карткі ўздоўж экрана як частку бакавой панэлі { -brand-shorter-name }.
+# Tooltip displayed on hover for horizontal tabs image
+onboarding-horizontal-tabs-tooltip =
+    .title = Акно браўзера з карткамі ўверсе.
+# Description for horizontal tabs image
+onboarding-horizontal-tabs-description =
+    .aria-description = Акно браўзера з карткамі ўверсе.
+# Additional setup card for setting up aichatbot in the sidebar
+onboarding-genai-sidebar-title = Паспрабуйце чат-бота ШІ на бакавой панэлі
+# Setup card for setting up AI chatbot in the sidebar; "Providers" refers to AI chatbot providers (e.g. OpenAI, etc). "Switch anytime" refers to allowing the user to switch to a different chatbot.
+onboarding-genai-sidebar-subtitle = Рэзюмуйце вэб-кантэнт, абдумвайце ідэі, чарнавікі паведамленняў — усё ў часе аглядання. Выбірайце з некалькіх пастаўшчыкоў. Пераключайцеся ў любы час. <a data-l10n-name="learn-more">Падрабязней</a>
+onboarding-genai-sidebar-primary-button = Выберыце чат-бота
+onboarding-genai-sidebar-secondary-button = Пачаць агляданне

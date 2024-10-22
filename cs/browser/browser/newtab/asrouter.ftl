@@ -319,6 +319,9 @@ device-migration-fxa-spotlight-older-device-primary-button = Vytvořit účet
 device-migration-fxa-spotlight-getting-new-device-header-2 = Plánujete v blízké budoucnosti nové zařízení?
 device-migration-fxa-spotlight-getting-new-device-body-2 = Když začínáte používat nové zařízení, přeneste si s sebou své záložky, historii a hesla pomocí několika jednoduchých kroků.
 device-migration-fxa-spotlight-getting-new-device-primary-button = Jak zálohovat moje data
+device-migration-fxa-spotlight-sync-header = Prohlížejte bez ztráty kytičky
+device-migration-fxa-spotlight-sync-body = Synchronizujte všechny důležité informace se šifrováním - například záložky a hesla. Vše můžete vytáhnout odkudkoli, kde použijete { -brand-product-name }.
+device-migration-fxa-spotlight-sync-primary-button = Začít
 
 ## Set as Default PDF Reader Infobar
 
@@ -387,8 +390,8 @@ root-certificate-succession-infobar-january-message =
     }
 root-certificate-succession-infobar-march-message =
     { -brand-short-name.case-status ->
-        [with-cases] <strong>Proveďte aktualizaci, aby jste mohli { -brand-short-name } nadále používat i po 14. březnu 2025.</strong>
-       *[no-cases] <strong>Proveďte aktualizaci, aby jste mohli aplikaci { -brand-short-name } nadále používat i po 14. březnu 2025.</strong>
+        [with-cases] <strong>Proveďte aktualizaci, abyste mohli { -brand-short-name(case: "acc") } nadále používat i po 14. březnu 2025.</strong>
+       *[no-cases] <strong>Proveďte aktualizaci, abyste mohli aplikaci { -brand-short-name } nadále používat i po 14. březnu 2025.</strong>
     }
 root-certificate-succession-infobar-link = Proč potřebuji aktualizaci?
 root-certificate-succession-infobar-primary-button =
@@ -397,3 +400,9 @@ root-certificate-succession-infobar-primary-button =
 root-certificate-succession-infobar-secondary-button =
     .label = Později
     .accesskey = P
+
+## FxA Menu Message variants
+
+fxa-menu-message-close-button =
+    .title = Zavřít
+    .aria-label = Zavřít

@@ -246,6 +246,9 @@ device-migration-fxa-spotlight-older-device-primary-button = Hesap oluştur
 device-migration-fxa-spotlight-getting-new-device-header-2 = Yeni bir cihaza geçmeyi düşünüyor musunuz?
 device-migration-fxa-spotlight-getting-new-device-body-2 = Yeni bir cihaza geçerken yer imlerinizi, geçmişinizi ve parolalarınızı yanınızda götürmek isterseniz birkaç basit adımda işe başlayabilirsiniz.
 device-migration-fxa-spotlight-getting-new-device-primary-button = Verilerimi nasıl yedekleyebilirim?
+device-migration-fxa-spotlight-sync-header = Hiçbir şeyi kaçırmadan gezin
+device-migration-fxa-spotlight-sync-body = Yer imleriniz ve parolalarınız gibi tüm önemli bilgilerinizi şifreleyerek eşitleyin. { -brand-product-name } kullandığınız her yerde tüm bilgilerinize ulaşabilirsiniz.
+device-migration-fxa-spotlight-sync-primary-button = Başlayın
 
 ## Set as Default PDF Reader Infobar
 
@@ -294,3 +297,9 @@ root-certificate-succession-infobar-primary-button =
 root-certificate-succession-infobar-secondary-button =
     .label = Daha sonra
     .accesskey = D
+
+## FxA Menu Message variants
+
+fxa-menu-message-close-button =
+    .title = Kapat
+    .aria-label = Kapat

@@ -89,9 +89,22 @@ genai-options-show-shortcut =
     .label = Zobrazit zkratku při označení textu
 genai-options-hide-shortcut =
     .label = Skrýt zkratku při označení textu
+genai-options-about-chatbot =
+    .label =
+        { -brand-short-name.case-status ->
+            [with-cases] O AI chatbotech ve { -brand-short-name(case: "loc") }
+           *[no-cases] O AI chatbotech v aplikaci { -brand-short-name }
+        }
 
 ## Chatbot onboarding
 
+genai-onboarding-header = Shrnutí, brainstorming a mnohem více při procházení webu
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-description =
+    { -brand-short-name.case-status ->
+        [with-cases] Zvolte chatbota AI, kterého chcete používat v postranním panelu  { -brand-short-name(case: "gen") }. Podrobnosti o každém chatbotovi zobrazíte po jeho výběru. Změnit chatbota můžete kdykoliv. <a data-l10n-name="learn-more">Dozvědět se více</a>
+       *[no-cases] Zvolte chatbota AI, kterého chcete používat v postranním panelu aplikace  { -brand-short-name }. Podrobnosti o každém chatbotovi zobrazíte po jeho výběru. Změnit chatbota můžete kdykoliv. <a data-l10n-name="learn-more">Dozvědět se více</a>
+    }
 genai-onboarding-primary = Pokračovat
 genai-onboarding-secondary = Zavřít
 genai-onboarding-claude-tooltip =
@@ -109,7 +122,24 @@ genai-onboarding-huggingchat-learn = Zjistit více o HuggingChat
 genai-onboarding-lechat-tooltip =
     .title = Le Chat Mistral
 genai-onboarding-lechat-learn = Zjistit více o Le Chat
+genai-onboarding-select-header = Výběrem textu zobrazíte návrhy
+genai-onboarding-select-description = Když vyberete text, nabídneme vám vstupy, které můžete chatbotovi odeslat. Můžete také napsat své vlastní vstupy.
+genai-onboarding-select-primary = Začněte chatovat
 
 ## Chatbot onboarding choices
 ## These describe features/capabilities of chatbot providers. These are not buttons/actions.
 
+genai-onboarding-claude-generate = Generování textu a kódu
+genai-onboarding-claude-analyze = Analýza dokumentů a obrázků
+genai-onboarding-claude-price = Bezplatné a placené možnosti; je vyžadován účet
+genai-onboarding-chatgpt-generate = Generování textu, obrázků a kódu
+genai-onboarding-chatgpt-analyze = Analýza dokumentů a obrázků
+genai-onboarding-chatgpt-price = Bezplatné a placené možnosti; pro některé země a úkoly je vyžadován účet
+genai-onboarding-gemini-generate = Generování textu, obrázků a kódu
+genai-onboarding-gemini-analyze = Analýza obrázků (zdarma) a dokumentů (placené)
+genai-onboarding-gemini-price = Bezplatné a placené možnosti; je vyžadován účet
+genai-onboarding-huggingchat-generate = Generování textu a kódu
+genai-onboarding-huggingchat-switch = Přepínejte mezi rozmanitou sadou otevřených modelů
+genai-onboarding-huggingchat-price = Zdarma; pro některé úkoly je vyžadován účet
+genai-onboarding-lechat-generate = Generování textu a kódu
+genai-onboarding-lechat-price = Zdarma; je vyžadován účet

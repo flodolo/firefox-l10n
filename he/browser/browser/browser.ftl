@@ -620,6 +620,26 @@ urlbar-result-search-with-local-search-mode = ‏{ $keywords } - חיפוש ב{ 
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = ‏{ $keywords } - חיפוש באמצעות { $engine }
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button =
+    .label = ‏{ $engine }, בחירת מנוע חיפוש
+    .tooltiptext = ‏{ $engine }, בחירת מנוע חיפוש
+urlbar-searchmode-dropmarker =
+    .tooltiptext = בחירת מנוע חיפוש
+urlbar-searchmode-bookmarks =
+    .label = סימניות
+urlbar-searchmode-tabs =
+    .label = לשוניות
+urlbar-searchmode-history =
+    .label = היסטוריה
+urlbar-searchmode-actions =
+    .label = פעולות
+urlbar-searchmode-exit-button =
+    .tooltiptext = סגירה
+urlbar-searchmode-popup-description = הפעם לחפש באמצעות:
+urlbar-searchmode-popup-search-settings = הגדרות חיפוש
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -1015,6 +1035,7 @@ firefox-relay-offer-legal-notice = לחיצה על ״שימוש במסיכת ד�
 popup-notification-addon-install-unsigned =
     .value = (ללא אימות)
 popup-notification-xpinstall-prompt-learn-more = מידע נוסף על התקנת תוספות בצורה בטוחה
+popup-notification-xpinstall-prompt-block-url = צפייה בפרטים
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = הפעלה בחלונות פרטיים

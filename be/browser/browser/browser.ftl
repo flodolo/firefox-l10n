@@ -618,6 +618,35 @@ urlbar-result-action-calculator-result = = { $result }
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site
 urlbar-result-search-with = Пошук з дапамогай { $engine }
+# Label for the urlbar result row, prompting the user to use a local keyword to enter search mode.
+#  $keywords (String): the restrict keyword to enter search mode.
+#  $localSearchMode (String): the local search mode (history, tabs, bookmarks,
+#  or actions) to search with.
+urlbar-result-search-with-local-search-mode = { $keywords } - Пошук у { $localSearchMode }
+# Label for the urlbar result row, prompting the user to use engine keywords to enter search mode.
+#  $keywords (String): the default keyword and user's set keyword if available
+#  $engine (String): the name of a search engine
+urlbar-result-search-with-engine-keywords = { $keywords } - Пошук з дапамогай { $engine }
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button =
+    .label = { $engine }, Выберыце пошукавую сістэму
+    .tooltiptext = { $engine }, Выберыце пашукавік
+urlbar-searchmode-dropmarker =
+    .tooltiptext = Выбраць пошукавую сістэму
+urlbar-searchmode-bookmarks =
+    .label = Закладкі
+urlbar-searchmode-tabs =
+    .label = Карткі
+urlbar-searchmode-history =
+    .label = Гісторыя
+urlbar-searchmode-actions =
+    .label = Дзеянні
+urlbar-searchmode-exit-button =
+    .tooltiptext = Закрыць
+urlbar-searchmode-popup-description = Гэтым разам шукаць у:
+urlbar-searchmode-popup-search-settings = Налады пошуку
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -1013,6 +1042,7 @@ firefox-relay-offer-legal-notice = Націскаючы «Выкарыстоўв
 popup-notification-addon-install-unsigned =
     .value = (Неправерана)
 popup-notification-xpinstall-prompt-learn-more = Даведацца больш пра бяспечнае ўсталяванне дадаткаў
+popup-notification-xpinstall-prompt-block-url = Паказаць падрабязнасці
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = Задзейнічаць у прыватных вокнах

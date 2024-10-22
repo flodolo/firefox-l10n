@@ -623,6 +623,26 @@ urlbar-result-search-with-local-search-mode = { $keywords } - Eheka { $localSear
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = { $keywords } - Eheka { $engine }-pe
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button =
+    .label = { $engine }, eiporavo jehekaha
+    .tooltiptext = { $engine }, eiporavo jehekaha
+urlbar-searchmode-dropmarker =
+    .tooltiptext = Eiporavo jehekaha
+urlbar-searchmode-bookmarks =
+    .label = Techaukaha
+urlbar-searchmode-tabs =
+    .label = Tendaykekuéra
+urlbar-searchmode-history =
+    .label = Tembiasakue
+urlbar-searchmode-actions =
+    .label = Ñemongu’e
+urlbar-searchmode-exit-button =
+    .tooltiptext = Mboty
+urlbar-searchmode-popup-description = Ko’ág̃a eheka hendive:
+urlbar-searchmode-popup-search-settings = Jehekaha ñemboheko
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -1016,6 +1036,7 @@ firefox-relay-offer-legal-notice = Eikutúvo “Eiporu ñanduti veve rovamo’ã
 popup-notification-addon-install-unsigned =
     .value = (Ndojehechajeýiva)
 popup-notification-xpinstall-prompt-learn-more = Eñemomaranduve mba’éichapa emohendáta moĩmbaha tekorosãkuápe
+popup-notification-xpinstall-prompt-block-url = Mba’emimi jehechauka
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = Emongu’e Windows ñemiguápe

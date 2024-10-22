@@ -32,6 +32,9 @@ firefoxview-tabpickup-progress-label = %{ $percentValue } tamamlandı
 firefoxview-tabpickup-step-signin-header = Cihazlar arasında kolayca geçiş yapın
 firefoxview-tabpickup-step-signin-description = Telefondaki sekmelerinizi burada görmek için önce giriş yapın veya hesap açın.
 firefoxview-tabpickup-step-signin-primarybutton = Devam et
+firefoxview-syncedtabs-signin-header-2 = { -brand-product-name } tüm cihazlarınızda
+firefoxview-syncedtabs-signin-description-2 = Telefonunuzdaki ve diğer cihazlardaki açık sekmeleri görmek için giriş yapın veya hesap açın. Hesap açarak parolalarınızı, geçmişinizi ve daha fazlasını eşitleyebilirsiniz.
+firefoxview-syncedtabs-signin-primarybutton-2 = Giriş yap
 firefoxview-syncedtabs-signin-header = Sekmelerinize her yerden ulaşın
 firefoxview-syncedtabs-signin-description = Sekmelerinizi { -brand-product-name } kullandığınız her yerde görmek için hesabınıza giriş yapın. Hesabınız yoksa açmanız için sizi yönlendireceğiz.
 firefoxview-syncedtabs-signin-primarybutton = Giriş yap veya kaydol
@@ -39,6 +42,8 @@ firefoxview-tabpickup-adddevice-header = { -brand-product-name } tarayıcınız�
 firefoxview-tabpickup-adddevice-description = Mobil cihazlar için { -brand-product-name }’u indirin ve hesabınıza giriş yapın.
 firefoxview-tabpickup-adddevice-learn-how = Nasıl yapılacağını öğrenin
 firefoxview-tabpickup-adddevice-primarybutton = Mobil cihazlar için { -brand-product-name }’u indir
+firefoxview-syncedtabs-adddevice-header-2 = Sekmelerinize her yerden ulaşın
+firefoxview-syncedtabs-adddevice-description-2 = Ssekmeleri burada görmek için telefonunuzdan veya başka bir bilgisayarınızdan { -brand-product-name }’a giriş yapın. <a data-l10n-name="url">Cihazlarınızı bağlamayı</a> öğrenin.
 firefoxview-syncedtabs-adddevice-header = Diğer cihazlarınızdan { -brand-product-name }’a giriş yapın
 firefoxview-syncedtabs-adddevice-description = { -brand-product-name } kullandığınız her yerdeki sekmelerinizi görmek için tüm cihazlarınızda giriş yapın. <a data-l10n-name="url">Diğer cihazlarınızı bağlamayı</a> öğrenin.
 firefoxview-syncedtabs-adddevice-primarybutton = Mobil cihazlar için { -brand-product-name }’u deneyin
@@ -228,6 +233,8 @@ firefoxview-choose-browser-button = Tarayıcı seç
 firefoxview-dont-remember-history-empty-header = Gösterilecek bir şey yok
 firefoxview-dont-remember-history-empty-description = Yaptığımız işin merkezinde gizliliğinizi korumak var. Bu yüzden, { -brand-short-name } tarayıcınızın hatırlayacağı etkinlikleri kendiniz seçebilirsiniz.
 firefoxview-dont-remember-history-empty-description-two = Mevcut ayarlarınıza göre { -brand-short-name } siz internette gezinirken etkinliklerinizi hatırlamıyor. Bunu değiştirmek için <a data-l10n-name="history-settings-url-two">geçmiş ayarlarınızı geçmişinizi hatırlayacak şekilde değiştirebilirsiniz</a>.
+firefoxview-dont-remember-history-empty-header-2 = { -brand-short-name } tarayıcınızın neleri hatırlayacağı sizin kontrolünüzde
+firefoxview-dont-remember-history-empty-description-one = Şu anda { -brand-short-name } gezdiğiniz sayfaları hatırlamıyor. Bunu değiştirmek için <a data-l10n-name="history-settings-url-two">geçmiş ayarlarınızı güncelleyebilirsiniz</a>.
 
 ##
 

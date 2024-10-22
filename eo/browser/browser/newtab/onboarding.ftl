@@ -375,3 +375,43 @@ onboarding-new-user-survey-familiarity-based-option-1 = Mi estas novulo
 onboarding-new-user-survey-familiarity-based-option-2 = Mi iom uzis ĝin
 onboarding-new-user-survey-familiarity-based-option-3 = Mi konas ĝin tre bone
 onboarding-new-user-survey-familiarity-based-option-4 = Mi antaŭe uzis ĝin, sed antaŭ longe
+
+## UI strings for the sidebar and vertical tabs
+
+# Setup screen for vertical tabs
+onboarding-new-tabs-title = Bonvolu diri al ni kie vi ŝatus havi viajn langetojn
+# Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-new-tabs-subtitle = En la agordoj de la flanka strio vi povas ŝanĝi tion iam ajn.
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-new-vertical-tabs-label = Langetoj flanke
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-new-horizontal-tabs-label = Langetoj supre
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title = Eblas havi vertikalajn langetojn
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title2 = Prezento de vertikalaj langetoj
+# Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-existing-tabs-subtitle = Provu viajn langetojn ĉe flanke. Reloku ilin iam ajn en la agordoj de la flanka strio.
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-existing-vertical-tabs-label = Provu vertikalajn langetojn
+onboarding-flair-text = Nova!
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-existing-horizontal-tabs-label = Gardi horizontalajn langetojn
+# Tooltip displayed on hover for vertical tabs image
+onboarding-vertical-tabs-tooltip =
+    .title = Retumila fenestro kun langetoj flanke, kiel parto de la flanka strio de { -brand-shorter-name }.
+# Description for vertical tabs image
+onboarding-vertical-tabs-description =
+    .aria-description = Retumila fenestro kun langetoj flanke, kiel parto de la flanka strio de { -brand-shorter-name }.
+# Tooltip displayed on hover for horizontal tabs image
+onboarding-horizontal-tabs-tooltip =
+    .title = Retumila fenestro kun langetoj supre.
+# Description for horizontal tabs image
+onboarding-horizontal-tabs-description =
+    .aria-description = Retumila fenestro kun langetoj supre.
+# Additional setup card for setting up aichatbot in the sidebar
+onboarding-genai-sidebar-title = Provu dialoganton de A.I. en la flanka strio
+# Setup card for setting up AI chatbot in the sidebar; "Providers" refers to AI chatbot providers (e.g. OpenAI, etc). "Switch anytime" refers to allowing the user to switch to a different chatbot.
+onboarding-genai-sidebar-subtitle = Resumu retan enhavon, trovu ideojn, kreu malnetojn de mesaĝoj dum vi retumas. Elektu inter pluraj provizantoj. Ŝanĝu iam ajn. <a data-l10n-name="learn-more">Pli da informo</a>
+onboarding-genai-sidebar-primary-button = Elekti dialoganton
+onboarding-genai-sidebar-secondary-button = Komenci retumi

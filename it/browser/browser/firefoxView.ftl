@@ -32,6 +32,9 @@ firefoxview-tabpickup-progress-label = { $percentValue }% completato
 firefoxview-tabpickup-step-signin-header = Passa velocemente da un dispositivo all’altro
 firefoxview-tabpickup-step-signin-description = Per recuperare le schede aperte sul tuo telefono, accedi o crea un account.
 firefoxview-tabpickup-step-signin-primarybutton = Continua
+firefoxview-syncedtabs-signin-header-2 = Il tuo { -brand-product-name } su tutti i tuoi dispositivi
+firefoxview-syncedtabs-signin-description-2 = Per visualizzare le schede aperte sul telefono e su altri dispositivi, accedi o crea un account. Con un account puoi anche sincronizzare password, cronologia e altro ancora.
+firefoxview-syncedtabs-signin-primarybutton-2 = Accedi
 firefoxview-syncedtabs-signin-header = Recupera le tue schede da qualsiasi dispositivo
 firefoxview-syncedtabs-signin-description = Per accedere alle tue schede ovunque utilizzi { -brand-product-name }, accedi al tuo account. Se non hai ancora un account, ti guideremo attraverso il processo per crearne uno.
 firefoxview-syncedtabs-signin-primarybutton = Accedi o registrati
@@ -39,6 +42,8 @@ firefoxview-tabpickup-adddevice-header = Sincronizza { -brand-product-name } sul
 firefoxview-tabpickup-adddevice-description = Scarica { -brand-product-name } per dispositivi mobili e accedi al tuo account.
 firefoxview-tabpickup-adddevice-learn-how = Scopri come
 firefoxview-tabpickup-adddevice-primarybutton = Ottieni { -brand-product-name } per mobile
+firefoxview-syncedtabs-adddevice-header-2 = Recupera le tue schede da qualsiasi dispositivo
+firefoxview-syncedtabs-adddevice-description-2 = Accedi a { -brand-product-name } dal tuo telefono o da un altro computer per visualizzarne le schede qui. Scopri come <a data-l10n-name="url">connettere altri dispositivi</a>.
 firefoxview-syncedtabs-adddevice-header = Accedi a { -brand-product-name } su un altro dispositivo
 firefoxview-syncedtabs-adddevice-description = Per accedere alle tue schede ovunque utilizzi { -brand-product-name }, effettua l’accesso in tutti i tuoi dispositivi. Scopri come <a data-l10n-name="url">connettere altri dispositivi</a>.
 firefoxview-syncedtabs-adddevice-primarybutton = Prova { -brand-product-name } per dispositivi mobili
@@ -228,6 +233,8 @@ firefoxview-choose-browser-button = Scegli un browser
 firefoxview-dont-remember-history-empty-header = Nulla da mostrare
 firefoxview-dont-remember-history-empty-description = Proteggere la tua privacy è la nostra priorità. Per questo motivo puoi decidere quali attività { -brand-short-name } debba ricordare.
 firefoxview-dont-remember-history-empty-description-two = { -brand-short-name } è attualmente impostato per non ricordare alcuna attività mentre navighi. Per cambiare, <a data-l10n-name="history-settings-url-two">imposta il tuo browser per salvare la cronologia</a>.
+firefoxview-dont-remember-history-empty-header-2 = Sei tu a decidere che cosa salvare in { -brand-short-name }
+firefoxview-dont-remember-history-empty-description-one = Al momento { -brand-short-name } non sta salvando la tua attività di navigazione. Per modificare questa impostazione, <a data-l10n-name="history-settings-url-two">aggiorna le preferenze relative alla cronologia</a>.
 
 ##
 

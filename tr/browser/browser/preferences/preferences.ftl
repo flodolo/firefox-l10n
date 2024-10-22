@@ -137,6 +137,7 @@ windows-launch-on-login =
     .label = Bilgisayarım açıldığında { -brand-short-name } tarayıcısını otomatik olarak aç
     .accesskey = B
 windows-launch-on-login-disabled = Bu tercih Windows’ta devre dışıdır. Değiştirmek için sistem ayarlarındaki <a data-l10n-name="startup-link">Başlangıç Uygulamaları</a> kısmına bakabilirsiniz.
+windows-launch-on-login-profile-disabled = “Kullanıcı profilini seçin” penceresindeki “{ profile-manager-use-selected.label }” seçeneğini işaretleyerek bu tercihi etkinleştirin.
 startup-restore-warn-on-quit =
     .label = Tarayıcıdan çıkarken beni uyar
 disable-extension =
@@ -640,6 +641,10 @@ search-show-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = Adres çubuğu sonuçlarında arama önerilerini göster
     .accesskey = l
+# With this option enabled, on the search results page
+# the URL will be replaced by the search terms in the address bar.
+search-show-search-term-option-2 =
+    .label = Sonuç sayfalarında adres çubuğunda arama terimlerini göster
 # With this option enabled, on the search results page
 # the URL will be replaced by the search terms in the address bar
 # when using the current default search engine.

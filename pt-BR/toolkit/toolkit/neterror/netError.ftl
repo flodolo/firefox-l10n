@@ -81,7 +81,7 @@ neterror-dns-not-found-native-fallback-not-confirmed2 = O { -brand-short-name } 
 neterror-file-not-found-filename = Verifique se o nome do arquivo tem letras maiúsculas ou outros erros de digitação.
 neterror-file-not-found-moved = Verifique se o arquivo foi movido, renomeado ou excluído.
 neterror-access-denied = Pode ter sido removido, movido ou as permissões do arquivo podem estar impedindo o acesso.
-neterror-unknown-protocol = Pode ser necessário instalar algum aplicativo para abrir este endereço.
+neterror-unknown-protocol = Pode ser necessário instalar outro aplicativo para abrir este endereço.
 neterror-redirect-loop = Às vezes, esse problema pode ser causado pela desativação ou recusa em aceitar cookies.
 neterror-unknown-socket-type-psm-installed = Verifique se o sistema tem o Personal Security Manager instalado.
 neterror-unknown-socket-type-server-config = Isto pode ser devido a uma configuração não padrão no servidor.
@@ -148,3 +148,4 @@ certerror-mitm-what-can-you-do-about-it-attack-sts = Se você não está familia
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
 certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> tem uma diretiva de segurança chamada HTTP Strict Transport Security (HSTS), que significa que o { -brand-short-name } só pode se conectar a ele com segurança. Você não pode adicionar uma exceção para acessar este site.
+cert-error-trust-certificate-transparency-what-can-you-do-about-it = Provavelmente nada, pois parece ser um problema no próprio site.

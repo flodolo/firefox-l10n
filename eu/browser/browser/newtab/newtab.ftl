@@ -13,6 +13,8 @@ newtab-personalize-icon-label =
     .aria-label = Pertsonalizatu fitxa berria
 newtab-personalize-dialog-label =
     .aria-label = Pertsonalizatu
+newtab-logo-and-wordmark =
+    .aria-label = { -brand-full-name }
 
 ## Search box component.
 
@@ -228,11 +230,20 @@ newtab-pocket-cta-button = Eskuratu { -pocket-brand-name }
 newtab-pocket-cta-text = Gorde gogoko dituzun istorioak { -pocket-brand-name }-en eta piztu zure gogoa irakurgai erakargarriekin.
 newtab-pocket-pocket-firefox-family = { -brand-product-name }(r)en familiakoa da { -pocket-brand-name }
 # A save to Pocket button that shows over the card thumbnail on hover.
+newtab-pocket-image =
+    .aria-label = { -pocket-brand-name }
 newtab-pocket-save = Gorde
 newtab-pocket-saved = Gordeta
 
 ## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
 
+# Clicking the thumbs up button for this story will result in more stories like this one being recommended
+newtab-pocket-thumbs-up-tooltip =
+    .title = Horrelako gehiago
+# Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
+newtab-pocket-thumbs-down-tooltip =
+    .title = Ez zait interesatzen
+newtab-toast-thumbs-up-or-down = Eskerrik asko. Zure iritziak jarioa hobetzen lagunduko digu.
 newtab-toast-dismiss-button =
     .title = Baztertu
     .aria-label = Baztertu
@@ -287,6 +298,7 @@ newtab-wallpaper-dark-aurora = Aurora boreala
 
 ## Solid Colors
 
+newtab-wallpaper-category-title-colors = Kolore solidoak
 newtab-wallpaper-blue = Urdina
 newtab-wallpaper-light-blue = Urdin argia
 newtab-wallpaper-light-purple = More argia
@@ -310,6 +322,7 @@ newtab-wallpaper-category-title-abstract = Abstraktua
 
 newtab-wallpaper-category-title-photographs = Argazkiak
 newtab-wallpaper-feature-highlight-header = Probatu kolore ukitu bat
+newtab-wallpaper-feature-highlight-button = Ulertuta
 # Tooltip for dismiss button
 feature-highlight-dismiss-button =
     .title = Utzi
@@ -350,6 +363,7 @@ newtab-topic-label-hobbies = Jokoak
 # and understand their personal finances – from saving money to buying a home. See the
 # “Curated by our editors“ section at the top of https://getpocket.com/explore/personal-finance for more context
 newtab-topic-label-finance = Finantzak
+newtab-topic-label-government = Politika
 newtab-topic-label-education-science = Zientzia
 newtab-topic-label-sports = Kirolak
 newtab-topic-label-tech = Teknologia
