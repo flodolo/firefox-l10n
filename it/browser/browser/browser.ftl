@@ -614,6 +614,12 @@ urlbar-result-action-calculator-result = = { $result }
 urlbar-searchmode-button =
     .label = { $engine }, scegli un motore di ricerca
     .tooltiptext = { $engine }, scegli un motore di ricerca
+urlbar-searchmode-button2 =
+    .label = { $engine }, scegli un motore di ricerca
+    .tooltiptext = { $engine }, scegli un motore di ricerca
+urlbar-searchmode-button-no-engine =
+    .label = Nessuna scorciatoia selezionata, scegline una
+    .tooltiptext = Nessuna scorciatoia selezionata, scegline una
 urlbar-searchmode-dropmarker =
     .tooltiptext = Scegli un motore di ricerca
 urlbar-searchmode-bookmarks =
@@ -964,6 +970,11 @@ data-reporting-notification-button =
     .accesskey = S
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = Navigazione anonima
+
+# Tooltip for the indicator shown in the private browsing window titlebar.
+private-browsing-indicator-tooltip =
+    .tooltiptext = Navigazione anonima
+
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
