@@ -18,11 +18,9 @@ cert-error-trust-signature-algorithm-disabled = Il certificato non è attendibil
 cert-error-trust-expired-issuer = Il certificato non è attendibile in quanto il certificato dell’autorità emittente è scaduto.
 cert-error-trust-self-signed = Il certificato non è attendibile in quanto autofirmato.
 cert-error-trust-symantec = I certificati rilasciati da GeoTrust, RapidSSL, Symantec, Thawte e VeriSign non sono più considerati attendibili in quanto, in passato, queste autorità di certificazione non si sono attenute alle pratiche di sicurezza previste.
-
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-trust-certificate-transparency = { -brand-short-name } non ritiene { $hostname } affidabile in quanto non è riuscito a dimostrare di soddisfare i requisiti di trasparenza per certificati pubblici.
-
 cert-error-untrusted-default = Il certificato non proviene da una fonte attendibile.
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
@@ -73,6 +71,45 @@ open-in-new-window-for-csp-or-xfo-error = Apri sito in una nuova finestra
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = Per proteggere la tua sicurezza, { $hostname } non consente a { -brand-short-name } di visualizzare la pagina quando è inclusa all’interno di un altro sito. Per visualizzare questa pagina è necessario aprirla in una nuova finestra.
+fp-certerror-view-certificate-link = Visualizza il certificato del sito
+fp-certerror-return-to-previous-page-recommended-button = Torna indietro (consigliato)
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+#   $validHosts (String) - Valid hostnames.
+fp-certerror-bad-domain-why-dangerous-body = Il sito è impostato per consentire solo connessioni sicure, ma c'è un problema con il certificato del sito. È possibile che un malintenzionato stia cercando di impersonare il sito. I siti utilizzano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. { -brand-short-name } non si fida di questo sito perché il suo certificato non è valido per { $hostname }. Il certificato è valido solo per: { $validHosts }.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-bad-domain-what-can-you-do-body = Probabilmente niente, perché è probabile che ci sia un problema con il sito stesso. I siti usano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. Ma se sei su una rete aziendale, il tuo team di supporto potrebbe avere maggiori informazioni. Se stai usando un software antivirus, prova a cercare potenziali conflitti o problemi noti.
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+fp-certerror-unknown-issuer-why-dangerous-body = C'è un problema con il certificato del sito. È possibile che un malintenzionato stia cercando di impersonare il sito. I siti utilizzano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. { -brand-short-name } non si fida di questo sito perché non possiamo dire chi ha emesso il certificato, è autofirmato o il sito non invia certificati intermedi di cui ci fidiamo.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-unknown-issuer-what-can-you-do-body = Probabilmente niente, perché è probabile che ci sia un problema con il sito stesso. Ma se sei su una rete aziendale, il tuo team di supporto potrebbe avere maggiori informazioni. Se stai utilizzando un software antivirus, potrebbe essere necessario configurarlo per funzionare con { -brand-short-name }.
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+fp-certerror-self-signed-why-dangerous-body = Perché c'è un problema con il certificato del sito. I siti usano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. Il certificato di questo sito è autofirmato. Non è stato emesso da un'autorità di certificazione riconosciuta, quindi non ci fidiamo di default.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-self-signed-what-can-you-do-body = Non molto. È probabile che ci sia un problema con il sito stesso.
+fp-certerror-self-signed-important-note = NOTA IMPORTANTE: se stai provando a visitare questo sito su una intranet aziendale, il tuo staff IT potrebbe utilizzare certificati autofirmati. Possono aiutarti a verificarne l'autenticità.
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $date (Date) - Certificate expiration date.
+fp-certerror-expired-why-dangerous-body = I siti utilizzano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. { -brand-short-name } non si fida di questo sito perché sembra che il certificato sia scaduto il { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }.
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $date (Date) - Certificate start date.
+fp-certerror-not-yet-valid-why-dangerous-body = I siti utilizzano certificati emessi da un'autorità di certificazione per dimostrare di essere realmente chi dicono di essere. { -brand-short-name } non si fida di questo sito perché sembra che il certificato non sarà valido fino a { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+# Variables:
+#   $date (Date) - Clock date.
+fp-certerror-expired-what-can-you-do-body = L'orologio del tuo dispositivo è impostato su { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }. Se è corretto, il problema di sicurezza è probabilmente nel sito stesso. Se è sbagliato, puoi cambiarlo nelle impostazioni di sistema del tuo dispositivo.
+# Variables:
+#   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
+fp-cert-error-code = Codice di errore: { $error }
+# Variables:
+#   $datetime (Date) - Current datetime.
+fp-datetime = { DATETIME($datetime, mese: "breve", anno: "numerico", giorno: "numerico") } { DATETIME($datetime, timeStyle: "lungo") }
+fp-learn-more-about-secure-connection-failures = Scopri di più sugli errori di connessione sicura
+fp-learn-more-about-cert-issues = Scopri di più su questo tipo di problemi relativi ai certificati
+fp-learn-more-about-time-related-errors = Scopri di più sulla risoluzione dei problemi relativi agli errori temporali
 
 ## Messages used for certificate error titles
 
@@ -114,3 +151,18 @@ networkProtocolError-title = Errore protocollo di rete
 nssBadCert-title = Attenzione: potenziale rischio per la sicurezza
 nssBadCert-sts-title = Connessione interrotta: potenziale rischio per la sicurezza
 certerror-mitm-title = Un software impedisce a { -brand-short-name } di connettersi in modo sicuro a questo sito
+
+## Felt Privacy V1 Strings
+
+fp-certerror-page-title = Attenzione: rischio per la sicurezza
+fp-certerror-body-title = Stai attento. Qualcosa non sembra giusto.
+fp-certerror-why-site-dangerous = Cosa rende il sito pericoloso?
+fp-certerror-what-can-you-do = Che cosa posso fare per risolvere?
+fp-certerror-advanced-title = Avanzate
+fp-certerror-advanced-button = Avanzate
+fp-certerror-hide-advanced-button = Nascondi avanzato
+
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+
+fp-certerror-override-exception-button = Procedere a { $hostname } (Rischioso)
