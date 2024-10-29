@@ -549,8 +549,6 @@ urlbar-page-action-button =
     .tooltiptext = Бет әрекеттері
 urlbar-revert-button =
     .tooltiptext = Орналасулар жолағында адресті көрсету
-urlbar-show-page-actions-button =
-    .tooltiptext = Барлық бет әрекеттерін көрсету
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -620,12 +618,6 @@ urlbar-result-search-with-local-search-mode = { $keywords } - { $localSearchMode
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = { $keywords } - { $engine } арқылы іздеу
-# Searchmode Switcher button
-# Variables:
-#   $engine (String): the current default search engine.
-urlbar-searchmode-button =
-    .label = { $engine }, Іздеу жүйесін таңдау
-    .tooltiptext = { $engine }, Іздеу жүйесін таңдау
 urlbar-searchmode-dropmarker =
     .tooltiptext = Іздеу жүйесін таңдау
 urlbar-searchmode-bookmarks =
@@ -640,6 +632,15 @@ urlbar-searchmode-exit-button =
     .tooltiptext = Жабу
 urlbar-searchmode-popup-description = Осы рет, келесімен іздеу:
 urlbar-searchmode-popup-search-settings = Іздеу баптаулары
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button2 =
+    .label = { $engine }, іздеу жүйесін таңдау
+    .tooltiptext = { $engine }, іздеу жүйесін таңдау
+urlbar-searchmode-button-no-engine =
+    .label = Жарлық таңдалмады, жарлықты таңдаңыз
+    .tooltiptext = Жарлық таңдалмады, жарлықты таңдаңыз
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -962,12 +963,18 @@ data-reporting-notification-button =
     .accesskey = М
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = Жекелік шолу
+# Tooltip for the indicator shown in the private browsing window titlebar.
+private-browsing-indicator-tooltip =
+    .tooltiptext = Жекелік шолу
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-indicator-tooltip =
     .tooltiptext = Деректер жоғалуын болдырмаудың (DLP) { $agentName } ұсынған шешімі. Қосымша ақпарат алу үшін шертіңіз.
 content-analysis-panel-title = Деректерді қорғау
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-panel-text-styled = Ұйымыңыз деректер жоғалуын қорғау үшін <b>{ $agentName }</b> пайдаланады. <a data-l10n-name="info">Көбірек білу</a>
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-panel-text = Ұйымыңыз деректер жоғалуын қорғау үшін { $agentName } пайдаланады. <a data-l10n-name="info">Көбірек білу</a>

@@ -4,6 +4,10 @@
 
 menu-view-genai-chat =
     .label = Chatbot IA
+menu-view-review-checker =
+    .label = Verifiche recensions
+sidebar-options-menu-button =
+    .title = Vierç menù
 
 ## Labels for sidebar history panel
 
@@ -50,12 +54,14 @@ sidebar-horizontal-tabs =
     .label = Schedis orizontâls
 sidebar-customize-tabs-header =
     .label = Impostazions schedis
-sidebar-customize-settings-header =
-    .label = Impostazions sbare laterâl
-sidebar-visibility-always-show =
-    .label = Mostre simpri
-sidebar-visibility-hide-sidebar =
-    .label = Plate sbare laterâl
+sidebar-customize-button-header =
+    .label = Boton sbare laterâl
+sidebar-customize-position-header =
+    .label = Posizion sbare laterâl
+sidebar-visibility-setting-always-show =
+    .label = Slargje e strenç la sbare laterâl
+sidebar-visibility-setting-hide-sidebar =
+    .label = Mostre e plate la sbare laterâl
 
 ## Labels for sidebar context menu items
 
@@ -73,6 +79,10 @@ sidebar-context-menu-bookmark-tab =
     .label = Zonte schede tai segnelibris…
 sidebar-context-menu-copy-link =
     .label = Copie colegament
+# Variables:
+#   $deviceName (String) - The name of the device the user is closing a tab for
+sidebar-context-menu-close-remote-tab =
+    .label = Siere schede su { $deviceName }
 
 ## Labels for sidebar history context menu items
 
@@ -91,6 +101,8 @@ sidebar-menu-bookmarks-label =
     .label = Segnelibris
 sidebar-menu-customize-label =
     .label = Personalize sbare laterâl
+sidebar-menu-review-checker-label =
+    .label = Verifiche recensions
 
 ## Headings for sidebar menu panels.
 
@@ -100,3 +112,35 @@ sidebar-menu-history-header =
     .heading = Cronologjie
 sidebar-menu-syncedtabs-header =
     .heading = Schedis di altris dispositîfs
+sidebar-panel-header-close-button =
+    .tooltiptext = Siere
+
+## Titles for sidebar menu panels.
+
+sidebar-customize-title = Personalize sbare laterâl
+sidebar-history-title = Cronologjie
+sidebar-syncedtabs-title = Schedis di altris dispositîfs
+
+## Context for closing synced tabs when hovering over the items
+
+# Context for hovering over the close tab button that will
+# send a push to the device to close said tab
+# Variables:
+#   $deviceName (String) - the name of the device the user is closing a tab for
+synced-tabs-context-close-tab-title =
+    .title = Siere schede su { $deviceName }
+
+## Tooltips for the sidebar toolbar widget.
+
+sidebar-widget-expand-sidebar =
+    .tooltiptext = Slargje la sbare laterâl
+    .label = Sbaris laterâls
+sidebar-widget-collapse-sidebar =
+    .tooltiptext = Strenç la sbare laterâl
+    .label = Sbaris laterâls
+sidebar-widget-show-sidebar =
+    .tooltiptext = Mostre la sbare laterâl
+    .label = Sbaris laterâls
+sidebar-widget-hide-sidebar =
+    .tooltiptext = Plate la sbare laterâl
+    .label = Sbaris laterâls

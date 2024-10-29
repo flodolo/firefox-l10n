@@ -71,6 +71,24 @@ open-in-new-window-for-csp-or-xfo-error = Sydło w nowym woknje wočinić
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = Zo byšće swoju wěstotu škitał, { $hostname } { -brand-short-name } njedowoli, stronu pokazać, jeli je zasadźeny w druhim sydle. Zo byšće tutu stronu widźał, dyrbiće ju w nowym woknje wočinić.
+fp-certerror-view-certificate-link = Certifikat sydła pokazać
+fp-certerror-return-to-previous-page-recommended-button = Wróćo (doporučeny)
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-self-signed-what-can-you-do-body = Nic wjele. Zda so, zo je problem ze sydłom samym.
+fp-certerror-self-signed-important-note = WAŽNA POKAZKA: Jeli pospytujeće, tute sydło we firmowym interneće wopytać, móže waš personal IT samosignowane certifikaty wužiwać. Móža wam pomhać, jich awtentiskosć přepruwować.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+# Variables:
+#   $date (Date) - Clock date.
+fp-certerror-expired-what-can-you-do-body = Časnik wašeho grata je na { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } stajeny. Jeli to je korektne, ma wěstotny problem najskerje ze sydłom samym činić. Jeli je wopačny, móžeće to w swojich systemowych nastajenjach změnić.
+# Variables:
+#   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
+fp-cert-error-code = Zmylkowy kod: { $error }
+# Variables:
+#   $datetime (Date) - Current datetime.
+fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numeric") } { DATETIME($datetime, timeStyle: "long") }
+fp-learn-more-about-secure-connection-failures = Zhońće wjace wo wěstych zwiskowych přetorhnjenjach
+fp-learn-more-about-cert-issues = Zhońće wjace wo tutych družinach certifikatowych problemow
+fp-learn-more-about-time-related-errors = Zhońće wjace wo rozrisowanju na čas poćahowanych zmylkow
 
 ## Messages used for certificate error titles
 
@@ -112,3 +130,18 @@ networkProtocolError-title = Zmylk syćoweho protokola
 nssBadCert-title = Warnowanje: Potencielne wěstotne riziko prědku
 nssBadCert-sts-title = Njeje so zwjazało: Potencielny wěstotny problem
 certerror-mitm-title = Software { -brand-short-name } při wěstym zwjazowanju z tutym sydłom haći
+
+## Felt Privacy V1 Strings
+
+fp-certerror-page-title = Warnowanje: wěstotne riziko
+fp-certerror-body-title = Budźće kedźbliwy. Něšto w porjadku njeje.
+fp-certerror-why-site-dangerous = Čehodla sydło strašnje wupada?
+fp-certerror-what-can-you-do = Što móžeće přećiwo tomu činić?
+fp-certerror-advanced-title = Rozšěrjene
+fp-certerror-advanced-button = Rozšěrjene
+fp-certerror-hide-advanced-button = Rozšěrjene schować
+
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+
+fp-certerror-override-exception-button = Dale k { $hostname } (riskantny)

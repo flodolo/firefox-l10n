@@ -32,6 +32,8 @@ firefoxview-tabpickup-progress-label = { $percentValue }% завършено
 firefoxview-tabpickup-step-signin-header = Превключвайте безпроблемно между устройствата
 firefoxview-tabpickup-step-signin-description = За да вземете разделите от телефона си, първо влезте или създайте профил.
 firefoxview-tabpickup-step-signin-primarybutton = Напред
+firefoxview-syncedtabs-signin-header-2 = Вашия { -brand-product-name } на всички ваши устройства
+firefoxview-syncedtabs-signin-primarybutton-2 = Вписване
 firefoxview-syncedtabs-signin-header = Вземете раздели отвсякъде
 firefoxview-syncedtabs-signin-description = За да видите разделите от другите места, на които използвате { -brand-product-name } влезте във вашия профил. Ако нямате профил, ние ще ви преведем през стъпките за регистриране.
 firefoxview-syncedtabs-signin-primarybutton = Вписване или регистриране
@@ -68,7 +70,10 @@ firefoxview-mobile-promo-header = Вземете разделите от ваш�
 firefoxview-mobile-promo-primarybutton = Изтеглете { -brand-product-name } за мобилни устройства
 firefoxview-mobile-confirmation-header = 🎉 Готово!
 firefoxview-closed-tabs-title = Наскоро затворени
+firefoxview-closed-tabs-description2 = Възстановяване на затворените страници в този прозорец.
 firefoxview-closed-tabs-placeholder-header = Няма наскоро затворени раздели
+firefoxview-closed-tabs-placeholder-body = Когато затворите раздел в този прозорец, можете да го изтеглите оттук.
+firefoxview-closed-tabs-placeholder-body2 = Когато затворите раздел, можете да го изтеглите оттук.
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed
 firefoxview-closed-tabs-dismiss-tab =

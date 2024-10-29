@@ -549,8 +549,6 @@ urlbar-page-action-button =
     .tooltiptext = Действия със страницата
 urlbar-revert-button =
     .tooltiptext = Показване на адреса в адресната лента
-urlbar-show-page-actions-button =
-    .tooltiptext = Показване на всички действия със страницата
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -620,6 +618,29 @@ urlbar-result-search-with-local-search-mode = { $keywords } - Търсене в 
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = { $keywords } - Търсене с { $engine }
+urlbar-searchmode-dropmarker =
+    .tooltiptext = Изберете търсеща машина
+urlbar-searchmode-bookmarks =
+    .label = Отметки
+urlbar-searchmode-tabs =
+    .label = Раздели
+urlbar-searchmode-history =
+    .label = История
+urlbar-searchmode-actions =
+    .label = Действия
+urlbar-searchmode-exit-button =
+    .tooltiptext = Затваряне
+urlbar-searchmode-popup-description = Този път търсете с:
+urlbar-searchmode-popup-search-settings = Настройки за търсене
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button2 =
+    .label = { $engine }, изберете търсеща машина
+    .tooltiptext = { $engine }, изберете търсеща машина
+urlbar-searchmode-button-no-engine =
+    .label = Няма избрана клавишна комбинация, изберете една
+    .tooltiptext = Няма избрана клавишна комбинация, изберете една
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -942,12 +963,18 @@ data-reporting-notification-button =
     .accesskey = И
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = Поверително разглеждане
+# Tooltip for the indicator shown in the private browsing window titlebar.
+private-browsing-indicator-tooltip =
+    .tooltiptext = Поверително сърфиране
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-indicator-tooltip =
     .tooltiptext = Предотвратяване загуба на данни (DLP) от { $agentName }. Натиснете за повече информация.
 content-analysis-panel-title = Защита на данните
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-panel-text-styled = Вашата организация използва <b>{ $agentName }</b> за защита срещу загуба на данни. <a data-l10n-name="info">Научете повече</a>
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-panel-text = Вашата организация използва { $agentName } за защита срещу загубата на данни. <a data-l10n-name="info">Научете повече</a>
@@ -1015,6 +1042,7 @@ firefox-relay-offer-legal-notice = С натискането на „Изпол�
 popup-notification-addon-install-unsigned =
     .value = (непроверено)
 popup-notification-xpinstall-prompt-learn-more = Научете повече за безопасното инсталиране на добавки
+popup-notification-xpinstall-prompt-block-url = Вижте подробности
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = Да работи в поверителни прозорци

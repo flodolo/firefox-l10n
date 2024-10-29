@@ -71,6 +71,24 @@ open-in-new-window-for-csp-or-xfo-error = Sedło w nowem woknje wócyniś
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = Aby swóju wěstotu šćitał, { $hostname } { -brand-short-name } njedowólijo, bok pokazaś, jolic jo zasajźony w drugem sedle. Aby toś ten bok wiźeł, musyśo jen w nowem woknje wócyniś.
+fp-certerror-view-certificate-link = Certifikat sedła pokazaś
+fp-certerror-return-to-previous-page-recommended-button = Slědk (dopórucony)
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-self-signed-what-can-you-do-body = Nic wjele. Zda se, až jo problem ze sedłom samym.
+fp-certerror-self-signed-important-note = WAŽNA POKAZKA: Jolic wopytujośo, se k toś tomu sedłoju we firmowem interneśe woglědaś, móžo waš personal IT samosigněrowane certifikaty wužywaś. Mógu wam pomagaś, jich awtentiskosć pśeglědowaś.
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+# Variables:
+#   $date (Date) - Clock date.
+fp-certerror-expired-what-can-you-do-body = Zeger wašogo rěda jo na { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } stajony. Jolic to jo korektne, ma wěstotny problem nejskerjej ze sedłom samym cyniś. Jolic jo wopacny, móžośo to w swójich systemowych nastajenjach změniś.
+# Variables:
+#   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
+fp-cert-error-code = Zmólkowy kod: { $error }
+# Variables:
+#   $datetime (Date) - Current datetime.
+fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numeric") } { DATETIME($datetime, timeStyle: "long") }
+fp-learn-more-about-secure-connection-failures = Zgóńśo wěcej wó wěstych zwiskowych wótłamanjach
+fp-learn-more-about-cert-issues = Zgóńśo wěcej wó toś tych družynach certifikatowych problemow
+fp-learn-more-about-time-related-errors = Zgóńśo wěcej wó rozwězowanju na cas póśěgowanych zmólkow
 
 ## Messages used for certificate error titles
 
@@ -112,3 +130,18 @@ networkProtocolError-title = Zmólka seśowego protokola
 nssBadCert-title = Warnowanje: Potencielne wěstotne riziko prědku
 nssBadCert-sts-title = Njejo se zwězało: Potencielny wěstotny problem
 certerror-mitm-title = Software { -brand-short-name } wěste zwězowanje z toś tym sedłom zawoborujo
+
+## Felt Privacy V1 Strings
+
+fp-certerror-page-title = Warnowanje: wěstotne riziko
+fp-certerror-body-title = Buźćo wobglědniwy. Něco njejo w pórěźe.
+fp-certerror-why-site-dangerous = Cogodla sedło tšašnje wuglěda?
+fp-certerror-what-can-you-do = Co móžośo pśeśiwo tomu cyniś?
+fp-certerror-advanced-title = Rozšyrjone
+fp-certerror-advanced-button = Rozšyrjone
+fp-certerror-hide-advanced-button = Rozšyrjone schowaś
+
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+
+fp-certerror-override-exception-button = Dalej k { $hostname } (riskantny)

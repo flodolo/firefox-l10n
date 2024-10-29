@@ -60,3 +60,74 @@ genai-input-ask-generic =
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = Domande a { $provider }…
+genai-shortcuts-hide =
+    .label = Plate la scurte pai chatbot
+
+## Chatbot header
+
+genai-chatbot-title = Chatbot IA
+genai-header-provider-menu =
+    .title = Sielç un chatbot
+genai-header-options-button =
+    .title = Vierç menù
+genai-header-close-button =
+    .title = Siere
+genai-provider-view-details =
+    .label = Mostre detais chatbot
+genai-provider-about-chatbots =
+    .label = Informazions su chescj chatbots
+genai-options-reload-generic =
+    .label = Torne cjame chatbot IA
+# $provider (string) - name of the provider
+genai-options-reload-provider =
+    .label = Torne cjame { $provider }
+genai-options-show-shortcut =
+    .label = Mostre scurte cuant che al ven selezionât un test
+genai-options-hide-shortcut =
+    .label = Plate scurte cuant che al ven selezionât un test
+genai-options-about-chatbot =
+    .label = Informazions sui chatbots IA in { -brand-short-name }
+
+## Chatbot onboarding
+
+genai-onboarding-header = Fâs un sunt, gjenere ideis e tant altri intant che tu navighis
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-description = Sielç il chatbot IA di doprâ te sbare laterâl di { -brand-short-name }. O mostrarìn i detais relatîfs a ogni chatbot cuant che tu lu selezionis. Tu lu podarâs cambiâ cuant che tu vûs. <a data-l10n-name="learn-more">Altris informazions</a>
+genai-onboarding-primary = Continue
+genai-onboarding-secondary = Siere
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-claude-learn = Plui informazions su Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-chatgpt-learn = Plui informazions su ChatGPT
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-gemini-learn = Plui informazions su Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-huggingchat-learn = Plui informazions su HuggingChat
+genai-onboarding-lechat-tooltip =
+    .title = Le Chat Mistral
+genai-onboarding-lechat-learn = Plui informazions su Le Chat
+genai-onboarding-select-header = Selezione un toc di test par viodi sugjeriments
+genai-onboarding-select-description = Cuant che tu selezionis un toc di test, ti sugjerirìn cualchi domande (“prompt”) che tu puedis inviâ al chatbot. Tu puedis ancje scrivi une tô version des richiestis.
+genai-onboarding-select-primary = Scomence a chatâ
+
+## Chatbot onboarding choices
+## These describe features/capabilities of chatbot providers. These are not buttons/actions.
+
+genai-onboarding-claude-generate = Gjenerazion di test e codiç
+genai-onboarding-claude-analyze = Analisi di documents e imagjins
+genai-onboarding-claude-price = Opzions gratuitis e a paiament; account necessari
+genai-onboarding-chatgpt-generate = Gjenerazion di test, imagjins e codiç
+genai-onboarding-chatgpt-analyze = Analisi di documents e imagjins
+genai-onboarding-chatgpt-price = Opzions gratuitis e a paiament; account necessari par cualchi paîs e par cualchi ativitât
+genai-onboarding-gemini-generate = Gjenerazion di test, imagjins e codiç
+genai-onboarding-gemini-analyze = Analisi di imagjins (gratuite) e di documents (a paiament)
+genai-onboarding-gemini-price = Opzions gratuitis e a paiament; account necessari
+genai-onboarding-huggingchat-generate = Gjenerazion di test e codiç
+genai-onboarding-huggingchat-switch = Sielç tra une vaste schirie di modei vierts
+genai-onboarding-huggingchat-price = Gratuit; account necessari par cualchi ativitât
+genai-onboarding-lechat-generate = Gjenerazion di test e codiç
+genai-onboarding-lechat-price = Gratuit; account necessari
