@@ -32,10 +32,10 @@ new-profile-page-done-button =
     .label = Modifica completata
 # Variables
 #   $profilename (String) - The name of the profile.
-delete-profile-page-title = Elimina il profilo { $profilename }
+delete-profile-page-title = Elimina il profilo “{ $profilename }”
 # Variables
 #   $profilename (String) - The name of the profile.
-delete-profile-header = Eliminare il profilo di { $profilename }?
+delete-profile-header = Eliminare il profilo “{ $profilename }”?
 delete-profile-description = { -brand-short-name } eliminerà definitivamente i seguenti dati da questo dispositivo:
 delete-profile-windows = Finestre aperte
 delete-profile-tabs = Schede aperte
