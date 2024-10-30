@@ -107,7 +107,6 @@ appmenu-fxa-setup-sync =
 appmenu-fxa-setup-sync-new = Attiva
 appmenuitem-save-page =
     .label = Salva pagina con nome…
-
 appmenuitem-fxa-sync-off-title = La sincronizzazione è disattivata
 appmenuitem-fxa-sync-off-description = Proteggi e accedi ai tuoi segnalibri, password e altri dati ovunque ti trovi.
 
@@ -279,3 +278,6 @@ appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = Mantieni al sicuro il tuo indirizzo email e telefono
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description = Proteggi la tua attività online
+
+## Profiles panel
+

@@ -59,3 +59,6 @@ split-dismiss-button-dont-show-option-label = Ne plus afficher cette recommandat
 split-dismiss-button-show-fewer-option-label = Afficher moins de recommandations
 # Opens about:preferences#general-cfrfeatures
 split-dismiss-button-manage-settings-option-label = Gérer les paramètres
+
+## Sidebar Strings
+

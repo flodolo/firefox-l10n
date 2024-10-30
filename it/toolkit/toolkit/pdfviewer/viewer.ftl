@@ -343,12 +343,13 @@ pdfjs-editor-stamp-add-image-button-label = Aggiungi immagine
 pdfjs-editor-free-highlight-thickness-input = Spessore
 pdfjs-editor-free-highlight-thickness-title =
     .title = Modifica lo spessore della selezione per elementi non testuali
-pdfjs-free-text =
-    .aria-label = Editor di testo
-pdfjs-free-text-default-content = Inizia a digitare…
+# .default-content is used as a placeholder in an empty text editor.
 pdfjs-free-text2 =
     .aria-label = Editor di testo
     .default-content = Inizia a digitare…
+pdfjs-free-text =
+    .aria-label = Editor di testo
+pdfjs-free-text-default-content = Inizia a digitare…
 pdfjs-ink =
     .aria-label = Editor disegni
 pdfjs-ink-canvas =
