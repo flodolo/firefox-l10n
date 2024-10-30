@@ -632,6 +632,15 @@ urlbar-searchmode-exit-button =
     .tooltiptext = Lat att
 urlbar-searchmode-popup-description = Søk denne gong med:
 urlbar-searchmode-popup-search-settings = Søkjeinnstillingar
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button2 =
+    .label = { $engine }, vel ein søkjemotor
+    .tooltiptext = { $engine }, vel ein søkjemotor
+urlbar-searchmode-button-no-engine =
+    .label = Ingen snarveg valt, vel ein snarveg
+    .tooltiptext = Ingen snarveg valt, vel ein snarveg
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -963,6 +972,9 @@ private-browsing-indicator-tooltip =
 content-analysis-indicator-tooltip =
     .tooltiptext = Førebygging av datatap (DLP) av { $agentName }. Klikk for meir info.
 content-analysis-panel-title = Datavern
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-panel-text-styled = Organisasjonen din brukar <b>{ $agentName }</b> for å beskytte seg mot datatap. <a data-l10n-name="info">Les meir</a>
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-panel-text = Organisasjonen din brukar { $agentName } for å beskytte mot tap av data. <a data-l10n-name="info">Les meir</a>
