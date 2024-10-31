@@ -30,6 +30,9 @@ new-profile-page-input-placeholder =
     .placeholder = Scegli un nome come “Lavoro” o “Personale”
 new-profile-page-done-button =
     .label = Modifica completata
+
+## Delete profile page that allows users to review what they will lose if they choose to delete their profile.
+
 # Variables
 #   $profilename (String) - The name of the profile.
 delete-profile-page-title = Elimina il profilo “{ $profilename }”
