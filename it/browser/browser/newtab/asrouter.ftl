@@ -242,7 +242,6 @@ device-migration-fxa-spotlight-older-device-primary-button = Crea un account
 device-migration-fxa-spotlight-getting-new-device-header-2 = Nuovo dispositivo nel tuo futuro?
 device-migration-fxa-spotlight-getting-new-device-body-2 = Segui alcuni semplici passaggi per portare con te segnalibri, cronologia e password quando inizi a utilizzare un nuovo dispositivo.
 device-migration-fxa-spotlight-getting-new-device-primary-button = Come posso salvare i miei dati
-
 device-migration-fxa-spotlight-sync-header = Naviga senza perdere un colpo
 device-migration-fxa-spotlight-sync-body = Sincronizza tutte le tue informazioni più importanti, come segnalibri e password, e proteggile con la crittografia. Potrai accedervi ovunque utilizzi { -brand-product-name }.
 device-migration-fxa-spotlight-sync-primary-button = Inizia
@@ -300,21 +299,16 @@ root-certificate-succession-infobar-secondary-button =
 fxa-menu-message-close-button =
     .title = Chiudi
     .aria-label = Chiudi
-
 fxa-menu-message-sign-up-button = Registrati
-
 fxa-menu-message-sync-devices-primary-text = Sincronizza tutti i tuoi dispositivi
 fxa-menu-message-sync-devices-secondary-text = Accedi al volo alle tue informazioni, come segnalibri e password, ovunque utilizzi { -brand-short-name }.
 fxa-menu-message-sync-devices-collapsed-text = Sincronizza tutti i tuoi dispositivi
-
 fxa-menu-message-backup-data-primary-text = Salva i dati del browser
 fxa-menu-message-backup-data-secondary-text = Proteggi automaticamente segnalibri, password e altre informazioni su tutti i tuoi dispositivi.
 fxa-menu-message-backup-data-collapsed-text = Salva i dati del browser
-
 fxa-menu-message-backup-sync-primary-text = Mantieni i tuoi dati al sicuro e sincronizzati
 fxa-menu-message-backup-sync-secondary-text = La sincronizzazione esegue il backup della maggior parte dei tuoi dati, così puoi accedervi ovunque utilizzi { -brand-short-name }.
 fxa-menu-message-backup-sync-collapsed-text = Sincronizza e salva i tuoi dati
-
 fxa-menu-message-mobile-primary-text = Invia schede al tuo telefono
 fxa-menu-message-mobile-secondary-text = Riprendi immediatamente da dove eri rimasto sincronizzando le schede con un dispositivo mobile.
 fxa-menu-message-mobile-collapsed-text = Sincronizza con il tuo telefono

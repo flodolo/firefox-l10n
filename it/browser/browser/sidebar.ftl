@@ -7,7 +7,7 @@ menu-view-genai-chat =
 menu-view-review-checker =
     .label = Verifica recensioni
 sidebar-options-menu-button =
-  .title = Apri menu
+    .title = Apri menu
 
 ## Labels for sidebar history panel
 
@@ -62,12 +62,6 @@ sidebar-visibility-setting-always-show =
     .label = Espandi e comprimi barra laterale
 sidebar-visibility-setting-hide-sidebar =
     .label = Mostra e nascondi barra laterale
-sidebar-customize-settings-header =
-    .label = Impostazioni barra laterale
-sidebar-visibility-always-show =
-    .label = Mostra sempre
-sidebar-visibility-hide-sidebar =
-    .label = Nascondi barra laterale
 
 ## Labels for sidebar context menu items
 
@@ -131,8 +125,8 @@ sidebar-syncedtabs-title = Schede da altri dispositivi
 
 # Context for hovering over the close tab button that will
 # send a push to the device to close said tab
-# Variables
-# $deviceName - the name of the device the user is closing a tab for
+# Variables:
+#   $deviceName (String) - the name of the device the user is closing a tab for
 synced-tabs-context-close-tab-title =
     .title = Chiudi scheda su { $deviceName }
 
@@ -150,4 +144,3 @@ sidebar-widget-show-sidebar =
 sidebar-widget-hide-sidebar =
     .tooltiptext = Nascondi la barra laterale
     .label = Barre laterali
-
