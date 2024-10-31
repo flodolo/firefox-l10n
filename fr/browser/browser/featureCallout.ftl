@@ -62,6 +62,5 @@ split-dismiss-button-manage-settings-option-label = Gérer les paramètres
 
 ## Sidebar Strings
 
-
-## Sidebar Callout Survey Strings
-
+sidebar-button-callout-title = Afficher le titre des onglets dans le panneau latéral
+sidebar-button-callout-subtitle = Utilisez le bouton du panneau latéral pour développer le panneau latéral, afin de voir le titre des onglets.

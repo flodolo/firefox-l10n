@@ -313,6 +313,8 @@ newtab-wallpaper-dark-panda = 숲속에 숨어있는 레서판다
 newtab-wallpaper-dark-sky = 밤하늘이 있는 도시 풍경
 newtab-wallpaper-dark-mountain = 산 풍경
 newtab-wallpaper-dark-city = 보라색 도시 풍경
+newtab-wallpaper-dark-fox-anniversary = 숲 근처 포장도로에 있는 여우
+newtab-wallpaper-light-fox-anniversary = 안개가 자욱한 산 풍경이 있는 풀밭에 있는 여우
 
 ## Solid Colors
 

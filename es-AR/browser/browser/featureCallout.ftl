@@ -59,3 +59,8 @@ split-dismiss-button-dont-show-option-label = No mostrar esta recomendación nue
 split-dismiss-button-show-fewer-option-label = Mostrar menos recomendaciones
 # Opens about:preferences#general-cfrfeatures
 split-dismiss-button-manage-settings-option-label = Administrar preferencias
+
+## Sidebar Strings
+
+sidebar-button-callout-title = Mostrar los títulos de las pestañas en la barra lateral
+sidebar-button-callout-subtitle = Use el botón de la barra lateral para expandir la barra y poder ver los títulos de las pestañas.

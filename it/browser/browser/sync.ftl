@@ -35,6 +35,7 @@ fxa-menu-sign-out =
     .label = Disconnetti…
 fxa-menu-sync-title = Sincronizzazione
 fxa-menu-sync-description = Il tuo Web, ovunque ti trovi
+
 sync-setup-verify-continue = Continua
 sync-setup-verify-title = Avviso unione dati
 sync-setup-verify-heading = Procedere con l’accesso per la sincronizzazione?
