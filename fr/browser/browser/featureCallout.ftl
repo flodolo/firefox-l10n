@@ -62,3 +62,6 @@ split-dismiss-button-manage-settings-option-label = Gérer les paramètres
 
 ## Sidebar Strings
 
+
+## Sidebar Callout Survey Strings
+
